@@ -28,24 +28,24 @@ End_Program
 
 Résultat analyse lexicale:
 
-Start_Program : Mot reserve debut du programme
-Int_Number :  Mot reserve debut declaration d'un entier
-: : Caractere reserve
-i,a,b,c : Erreur lexicale
-;; : Mot reserve fin instruction
-Real_Number :  Mot reserve debut declaration d'un Real
-: : Caractere reserve
-J,K : Erreur lexicale
-;; : Mot reserve fin instruction
-if : Identificateur
--- : Mot reserve pour une condition
-i<K : Erreur lexicale
--- : Mot reserve pour une condition
-Give : Mot reserve
-J : identificateur
-: : Caractere reserve
-44 : Nombre entier
-;; : Mot reserve fin instruction
+Start_Program : Mot reserve debut du programme.
+Int_Number :  Mot reserve debut declaration d'un entier.
+: : Caractere reserve.
+i,a,b,c : Erreur lexicale.
+;; : Mot reserve fin instruction.
+Real_Number :  Mot reserve debut declaration d'un Real.
+: : Caractere reserve.
+J,K : Erreur lexicale.
+;; : Mot reserve fin instruction.
+if : Identificateur.
+-- : Mot reserve pour une condition.
+i<K : Erreur lexicale.
+-- : Mot reserve pour une condition.
+Give : Mot reserve.
+J : identificateur.
+: : Caractere reserve.
+44 : Nombre entier.
+;; : Mot reserve fin instruction.
 Else : Mot reserve pour condition SINON
 Start : Debut d'un sous programme
 Give : Mot reserve
