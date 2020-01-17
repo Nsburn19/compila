@@ -11,7 +11,7 @@ Ce programme fait l'analyse lexicale,syntaxique et sémantique des programmes é
 Start_Program
 Int_Number : i,a,b,c ;;
 Real_Number : J,K ;;
-if -- i<K -- Give J : 44 ;;
+If -- i<K -- Give J : 44 ;;
 Else
 Start
 Give i : 25 ;;
