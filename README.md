@@ -6,7 +6,7 @@ Langage de programmation utilisé : Java.
 Ce programme fait l'analyse lexicale,syntaxique et sémantique des programmes écrit en langage compila,dans chaque type d'analyse le programme compare les caracteres,mots,lignes de codes et affiche un résultat s'il reconnait les expressions.
 
 //Exemple code source compila
-
+```
 Start_Program
 Int_Number : i,a,b,c ;;
 Real_Number : J,K ;;
@@ -24,10 +24,10 @@ ShowVal : k ;;
 Affect i to J ;;
 Give K : 78,77 ;;
 End_Program
-
+```
 
 Résultat analyse lexicale:
-
+```
 Start_Program : Mot reserve debut du programme.
 Int_Number :  Mot reserve debut declaration d'un entier.
 : : Caractere reserve.
@@ -93,9 +93,9 @@ K : identificateur
 78,77 : Nombre reel
 ;; : Mot reserve fin instruction
 End_Program : Mot reserve Fin du programme
-
+```
 Résultat analyse Syntaxique:
-
+```
 Start_Program : Début du programme
 Int_Number : i,a,b,c ;; : Déclaration de 4 variables entieres
 Real_Number : J,K ;; : Déclaration de 2 variables reelles
@@ -113,9 +113,9 @@ ShowVal : k ;; : affichage de la valeur de k
 Affect i to J ;; : affectation de i a J
 Give K : 78,77 ;; : affectation dune valeur reel à K
 End_Program : Fin du programme
-
+```
 Résultat analyse Sémantique:
-
+```
 Start_Program : public static void main(String[] args) {
 Int_Number : i,a,b,c ;; : int i,a,b,c;
 Real_Number : J,K ;; : Float J,K;
@@ -133,3 +133,4 @@ ShowVal : k ;; : System.out.println(k);
 Affect i to J ;; : J=i;
 Give K : 78,77 ;; : K=78,77;
 End_Program : }
+```
